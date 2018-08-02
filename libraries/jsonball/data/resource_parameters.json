@@ -38,5 +38,18 @@
    "u_point_num" : 1,
    "u_point_denom" : 2
   }
+ ],
+
+ ["resource_execution_time",
+  {
+   "time_unit" : "time",
+   "budget_time" : {"days" : 7},
+   "budget" : "1656986301369",
+   "half_life" : {"days" : 1},
+   "a_point_num" : 37,
+   "a_point_denom" : 1000,
+   "u_point_num" : 1,
+   "u_point_denom" : 2
+  }
  ]
 ]

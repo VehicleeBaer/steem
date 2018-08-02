@@ -18,7 +18,8 @@ enum rc_resource_types
 {
    resource_history_bytes,
    resource_new_accounts,
-   resource_market_bytes
+   resource_market_bytes,
+   resource_execution_time
 };
 
 typedef fc::int_array< int64_t, STEEM_NUM_RESOURCE_TYPES > resource_count_type;
@@ -38,6 +39,7 @@ FC_REFLECT_ENUM( steem::plugins::rc::rc_resource_types,
     (resource_history_bytes)
     (resource_new_accounts)
     (resource_market_bytes)
+    (resource_execution_time)
    )
 
 FC_REFLECT( steem::plugins::rc::count_resources_result,
